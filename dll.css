@@ -1,0 +1,32 @@
+@font-face {
+font-family: 'Minipax';
+src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'VG5000';
+src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
+}
+
+
+
+body {
+	line-height: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: Minipax;
+	background-color: lightblue;
+	color: white;
+	margin: 0;
+}
+
+.center-pane {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    min-height: 73vh;
+    border: 1px solid white;
+}
+
