@@ -27,6 +27,34 @@ body {
     margin: auto;
     padding: 100px;
     min-height: 73vh;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
+}
+
+@media (max-width: 600px) {
+	.center-pane {
+		padding: 15px;
+		padding-bottom: 100px;
+	}
+    .page-title {
+		margin-top: 60px;
+	}
+}
+
+.page-title {
+	width:100%;
+	text-align:center;
+}
+
+.main-mushroom {
+	width: 400px;
+	margin: auto;
+	margin-top: 75px;
+	margin-bottom: 80px;
+	display: flex;
+}
+
+.writeup {
+	max-width: 600px;
+    margin: auto;
 }
 
