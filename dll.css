@@ -43,13 +43,13 @@ body {
 .page-title {
 	width:100%;
 	text-align:center;
+	font-size: 36px;
 }
 
 .main-mushroom {
 	width: 400px;
 	margin: auto;
 	margin-top: 75px;
-	margin-bottom: 80px;
 	display: flex;
 }
 
@@ -58,3 +58,39 @@ body {
     margin: auto;
 }
 
+.language-select {
+	margin: auto;
+	margin-top: 40px;
+	width: 200px;
+	text-align: center;
+    margin-bottom: 40px;
+}
+.language-options span.language-option {
+	cursor: pointer;
+}
+.language-option.selected {
+	font-style: italic;
+}
+span.divider {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.centered {
+    /*margin-left: 50px;*/
+	padding-bottom: 20px;
+    font-style: italic;
+}
+.contact-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.german {
+	display: none;
+}
+
+
+a {
+	color: white;
+	/*text-decoration: none;*/
+}
